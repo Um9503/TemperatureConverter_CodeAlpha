@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e8d6f7; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #6b3f91; 
+}
+
+.converter {
+    background-color: #af8bcd;
+    padding: 30px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+label {
+    font-size: large;
+    font-family: Georgia, serif;
+    color: #442662; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e8d6f7; 
+    color: #6b3f91; 
+    border: 1px solid #6b3f91; 
+    border-radius: 5px;
+    appearance: none; 
+
+}
+
+button {
+    background-color: #6b3f91; 
+    color: #fff;
+    border: none;
+    padding: 15px 30px; 
+    cursor: pointer;
+    margin-top: 15px; 
+}
+
+button:hover {
+    background-color: #4a2673; 
+}
+
+select:hover {
+    background-color: #d0a5e2; 
+    color: #4a2673; 
+    border: 1px solid #4a2673; 
+}
+
+select option:hover {
+    background-color: #d0a5e2;
+    color: #4a2673; 
+}
+
+p {
+    margin-top: 10px; 
+    font-weight: bold;
+    color: #42265b;
+    font-size: larger;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e8d6f7; 
+    color: #6b3f91; 
+    border: 1px solid #6b3f91; 
+    border-radius: 5px;
+    appearance: none; 
+}
